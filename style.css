@@ -93,8 +93,8 @@ button{
 }
 .blue_box{
     display: inline-block;
-    height: 2.5vh;
-    width: 2.5vh;
+    height: 3vh;
+    width: 3vh;
     border: dashed blue;
 }
 .yellow_box{
@@ -135,7 +135,7 @@ button{
 {
     border: solid red;
     width: 15vh;
-    height: 3vh;
+    height: 3.5vh;
     font-size: 2vh;
 }
 .green
