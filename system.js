@@ -55,8 +55,8 @@ function add(color, text) {
             set: "$blue$は$blue$",
             add: "$blue$+$blue$が$blue$",
             sub: "$blue$-$blue$が$blue$",
-            mul: "$blue$÷$blue$が$blue$",
-            div: "$blue$×$blue$が$blue$",
+            mul: "$blue$×$blue$が$blue$",
+            div: "$blue$÷$blue$が$blue$",
             twod: "$blue$は[$blue$,$blue$]"
         },
         green: {
