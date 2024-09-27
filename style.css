@@ -99,19 +99,19 @@ button{
 }
 .yellow_box{
     display: inline-block;
-    height: 2.5vh;
+    height: 3.5vh;
     width: 5vh;
     border: dashed #b0b000;
 }
 .red_box{
     display: inline-block;
-    height: 2.5vh;
-    width: 15vh;
+    height: 3.5vh;
+    width: 15.5vh;
     border: dashed red;
 }
 .green_box{
     display: inline-block;
-    height: 2.5vh;
+    height: 3.5vh;
     width: 20vh;
     border: dashed lime;
 }
@@ -119,44 +119,48 @@ button{
 {
     border: dashed black;
     width: 50vh;
-    height: 2.5vh;
+    min-height: 4.7vh;
 }
 .purple
 {
-    border: inset black;
+    border: solid black;
     width: 50vh
 }
 .aqua
 {
-    border: inset black;
+    border: solid black;
     width: 50vh
 }
 .red
 {
-    border: inset red;
+    border: solid red;
     width: 15vh;
-    height: 2.5vh;
+    height: 3vh;
     font-size: 2vh;
 }
 .green
 {
-    border: inset lime;
-    width: 20vh
+    border: solid lime;
+    height: 3vh;
+    width: 20vh;
+    height: 3vh;
 }
 .blue
 {
-    border: inset blue;
+    border: solid blue;
     width: 2.5vh;
+    height: 3vh;
     height: 2.5vh;
 }
 .yellow
 {
-    border: inset yellow;
-    width: 15vh
+    border: solid yellow;
+    height: 3vh;
+    width: 15vh;
 }
 .on
 {
-    border : inset rgba(255, 255, 255, 0);
+    border : solid rgba(255, 255, 255, 0);
 }
 .clicked
 {
@@ -164,7 +168,7 @@ button{
 }
 .text_box
 {
-    border: inset rgba(255, 255, 255, 0);
+    border: solid rgba(255, 255, 255, 0);
     background: rgba(255, 255, 255, 0);
     width: 2.5vh;
 }
