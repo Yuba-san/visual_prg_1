@@ -106,7 +106,7 @@ button{
 .red_box{
     display: inline-block;
     height: 3.5vh;
-    width: 15.5vh;
+    width: 16vh;
     border: dashed red;
 }
 .green_box{
@@ -134,7 +134,7 @@ button{
 .red
 {
     border: solid red;
-    width: 15vh;
+    width: 15.5vh;
     height: 3.5vh;
     font-size: 2vh;
 }
