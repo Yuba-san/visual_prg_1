@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="del()">➖選択中のブロックを消去</button>
+    <button onclick="move('up')">上に移動</button>
+    <button onclick="move('down')">下に移動</button>
+    <br>
+    <div class="canvas" id="canvas">
+        <br id="last_element">
+    </div>
+    <div class="tool_">
+        <button class="button_purple" onclick="add('purple', 'if')">if文  「もし」の文</button>
+        <br>
+        <button class="button_purple" onclick="add('purple', 'for')">for文  「繰り返し」の文</button>
+        <br>
+        <button class="button_aqua" onclick="add('aqua', 'move')">プレイヤーの移動の文</button>
+        <br>
+        <button class="button_aqua" onclick="add('aqua', 'action')">何かを実行する文</button>
+        <br>
+        <button class="button_red" onclick="add('red', 'set')">代入文 ×に○を代入する</button>
+        <br>
+        <button class="button_red" onclick="add('red', 'add')">代入文(加算)  「×」に「○」 + 「▲」を代入する</button>
+        <br>
+        <button class="button_red" onclick="add('red', 'sub')">代入文(減算)  「×」に「○」 - 「▲」を代入する</button>
+        <br>
+        <button class="button_red" onclick="add('red', 'mul')">代入文(乗算)  「×」に「○」 x 「▲」を代入する</button>
+        <br>
+        <button class="button_red" onclick="add('red', 'div')">代入文(徐算)  「×」に「○」 ÷ 「▲」を代入する</button>
+        <br>
+        <button class="button_red" onclick="add('red', 'twod')">代入文(二次元配列)  「×」に[○,▲]を代入する</button>
+        <br>
+        <button class="button_green" onclick="add('green', 'equal')">比較演算(同数) 「×」が[○]である/でない</button>
+        <br>
+        <button class="button_green" onclick="add('green', 'more')">比較演算(以上) 「×」が[○]以上である/でない</button>
+        <br>
+        <button class="button_green" onclick="add('green', 'more_than')">比較演算(超過) 「×」が[○]超過である/でない</button>
+        <br>
+        <button class="button_green" onclick="add('green', 'less')">比較演算(以下) 「×」が[○]以下である/でない</button>
+        <br>
+        <button class="button_green" onclick="add('green', 'less_than')">比較演算(未満) 「×」が[○]未満である/でない</button>
+        <br>
+        <button class="button_green" onclick="add('green', 'hole')">[x]のマスは落とし穴である/でない</button>
+    </div>
+    <div class="tool_">
+        <button class="button_blue" onclick="add('blue', 'heart')">変数:❤️</button>
+        <br>
+        <button class="button_blue" onclick="add('blue', 'star')">変数:⭐️</button>
+        <br>
+        <button class="button_blue" onclick="add('blue', 'cat')">変数:😺</button>
+        <br>
+        <button class="button_blue" onclick="add('blue', 'dog')">変数:🐶</button>
+        <br>
+        <button class="button_blue" onclick="add('blue', 'rabbit')">変数:🐰</button>
+        <br>
+        <button class="button_blue" onclick="add('blue', 'tea')">変数:🍵</button>
+        <br>
+        <button class="button_blue" onclick="add('blue', 'orange')">変数:🍊</button>
+        <br>
+        <button class="button_blue" onclick="add('blue', 'apple')">変数:🍎</button>
+        <br>
+        <button class="button_blue" onclick="add('blue', 'text')">自由入力</button>
+        <br>
+        <button class="button_yellow" onclick="add('yellow', 'true')">である</button>
+        <br>
+        <button class="button_yellow" onclick="add('yellow', 'false')">でない</button>
+    </div>
+    <script src="system.js">
+    </script>
+</body>
+</html>

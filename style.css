@@ -1,0 +1,170 @@
+.canvas{
+    border : 2px solid gray;
+    width: 50vw;
+    height: 80vh;
+    display: inline-block;
+    overflow-y: scroll;
+}
+button{
+    width: 26vh;
+    height: 5.25vh;
+    font-size: 1.6vh;
+}
+.button_purple{
+    background-color: rgb(222, 213, 229);
+    border : 1px solid rgb(156, 108, 148);
+    border-radius: 3px;
+}
+.button_purple:hover{
+    background-color: rgb(198, 181, 212);
+}
+.button_purple:active{
+    background-color: rgb(179, 156, 197);
+}
+.button_aqua{
+    background-color: rgb(213, 228, 229);
+    border : 1px solid rgb(108, 150, 156);
+    border-radius: 3px;    
+}
+.button_aqua:hover{
+    background-color: rgb(187, 209, 211);
+}
+.button_aqua:active{
+    background-color: rgb(153, 182, 184);
+}
+.button_red{
+    background-color: rgb(229, 213, 213);
+    border : 1px solid rgb(156, 108, 108);
+    border-radius: 3px;    
+}
+.button_red:hover{
+    background-color: rgb(210, 187, 187);
+}
+.button_red:active{
+    background-color: rgb(179, 143, 143);
+}
+.button_green{
+    background-color: rgb(215, 229, 213);
+    border : 1px solid rgb(108, 156, 118);
+    border-radius: 3px;    
+}
+.button_green:hover{
+    background-color: rgb(188, 211, 185);
+}
+.button_green:active{
+    background-color: rgb(149, 179, 145);
+}
+.button_blue{
+    background-color: rgb(215, 213, 229);
+    border : 1px solid rgb(114, 108, 156);
+    border-radius: 3px;    
+}
+.button_blue:hover{
+    background-color: rgb(186, 183, 206);
+}
+.button_blue:active{
+    background-color: rgb(147, 143, 177);
+}
+.button_yellow{
+    background-color: rgb(229, 227, 213);
+    border : 1px solid rgb(156, 150, 108);
+    border-radius: 3px;    
+}
+.button_yellow:hover{
+    background-color: rgb(206, 204, 183);
+}
+.button_yellow:active{
+    background-color: rgb(177, 175, 143);
+}
+.tool_{
+    height: 80vh;
+    display: inline-block;
+    vertical-align: top;
+}
+.block
+{
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+.active
+{
+    background-color: rgb(255, 255, 169);
+}
+.blue_box{
+    display: inline-block;
+    height: 2.5vh;
+    width: 2.5vh;
+    border: dashed blue;
+}
+.yellow_box{
+    display: inline-block;
+    height: 2.5vh;
+    width: 5vh;
+    border: dashed #b0b000;
+}
+.red_box{
+    display: inline-block;
+    height: 2.5vh;
+    width: 15vh;
+    border: dashed red;
+}
+.green_box{
+    display: inline-block;
+    height: 2.5vh;
+    width: 20vh;
+    border: dashed lime;
+}
+.black_box
+{
+    border: dashed black;
+    width: 50vh;
+    height: 2.5vh;
+}
+.purple
+{
+    border: inset black;
+    width: 50vh
+}
+.aqua
+{
+    border: inset black;
+    width: 50vh
+}
+.red
+{
+    border: inset red;
+    width: 15vh;
+    height: 2.5vh;
+    font-size: 2vh;
+}
+.green
+{
+    border: inset lime;
+    width: 20vh
+}
+.blue
+{
+    border: inset blue;
+    width: 2.5vh;
+    height: 2.5vh;
+}
+.yellow
+{
+    border: inset yellow;
+    width: 15vh
+}
+.on
+{
+    border : inset rgba(255, 255, 255, 0);
+}
+.clicked
+{
+    background-color: rgb(210, 255, 255);
+}
+.text_box
+{
+    border: inset rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
+    width: 2.5vh;
+}
