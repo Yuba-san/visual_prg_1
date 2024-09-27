@@ -3,6 +3,14 @@ let clicked_element;
 function initializeDragAndDrop() {
     let draggables = document.querySelectorAll('.block');
     let dropZones = document.querySelectorAll('.box');
+    for(let i = 0; i+1 <= dropZones.length; i++)
+    {
+        console.log(dropZones[i].hasChildNodes())
+        if(dropZones[i].hasChildNodes() == true)
+        {
+
+        }
+    }
 
     draggables.forEach(draggable => {
         // ドラッグ開始時
@@ -37,7 +45,7 @@ function add(color, text) {
     const data = {
         purple : {
             if: "もし$green$なら$br$$black$を実行する",
-            for: " 最初だけ$red$を実行。$br$$green$を満たす時だけ$br$繰り返して、1回ごとに$br$$black$を実行する"
+            for: " 最初だけ$red$を実行。$br$$green$を満たす時だけ$br$繰り返して、1回ごとに$br$$black$と$black$を実行する"
         },
         aqua: {
             move: "プレイヤーを$blue$歩進ませる",
